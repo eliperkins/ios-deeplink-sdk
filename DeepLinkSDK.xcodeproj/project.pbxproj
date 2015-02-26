@@ -8,6 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1252340A196B4771BE27D5FD /* libPods-ReceiverDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE63F7FEA51182807D98A78 /* libPods-ReceiverDemo.a */; };
+		267311981A9FD1D800AD4379 /* AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4128901A8BBE500089DAA2 /* AppLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311991A9FD1DA00AD4379 /* DPLTargetViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE99EF781A3B83D100CE3449 /* DPLTargetViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2673119A1A9FD1DD00AD4379 /* NSString+DPLTrim.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16E91C1A42720D00077E18 /* NSString+DPLTrim.h */; };
+		2673119B1A9FD1DF00AD4379 /* NSString+DPLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DE058E071A3B46F500147C04 /* NSString+DPLQuery.h */; };
+		2673119C1A9FD1E200AD4379 /* NSString+DPLJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3E61081A3B4485008D6DFC /* NSString+DPLJSON.h */; };
+		2673119D1A9FD1E600AD4379 /* NSObject+DPLJSONObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DECB32501A87E94B0071C76E /* NSObject+DPLJSONObject.h */; };
+		2673119E1A9FD1E900AD4379 /* DPLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC406E1A5D97EE004A9095 /* DPLErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2673119F1A9FD1F900AD4379 /* DPLDeepLinkRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A01A9FD1FC00AD4379 /* DPLRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC40701A5DA86A004A9095 /* DPLRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A11A9FD20000AD4379 /* DPLRouteMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16E9341A4289D500077E18 /* DPLRouteMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A21A9FD20300AD4379 /* DPLDeepLink+AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA55ADB1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A31A9FD20600AD4379 /* DPLMutableDeepLink+AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = DECB324B1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A41A9FD20900AD4379 /* DPLDeepLink_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB4EDBC1A4A036D00F31D14 /* DPLDeepLink_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		267311A51A9FD20D00AD4379 /* DPLDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DE058E0C1A3B484A00147C04 /* DPLDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A61A9FD21100AD4379 /* DPLMutableDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267311A91A9FD5B700AD4379 /* DeepLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2673117D1A9FD19C00AD4379 /* DeepLinkSDK.framework */; };
+		267311AA1A9FD5EE00AD4379 /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E91B1A42720D00077E18 /* NSString+DPLTrim.m */; };
+		267311AB1A9FD5F400AD4379 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E081A3B46F500147C04 /* NSString+DPLQuery.m */; };
+		267311AC1A9FD5F800AD4379 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E61091A3B4485008D6DFC /* NSString+DPLJSON.m */; };
+		267311AD1A9FD5FA00AD4379 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */; };
+		267311AE1A9FD5FD00AD4379 /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */; };
+		267311AF1A9FD60000AD4379 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAC40711A5DA86A004A9095 /* DPLRouteHandler.m */; };
+		267311B01A9FD60200AD4379 /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9351A4289D500077E18 /* DPLRouteMatcher.m */; };
+		267311B11A9FD60600AD4379 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA55ADC1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.m */; };
+		267311B21A9FD60800AD4379 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324C1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.m */; };
+		267311B31A9FD60B00AD4379 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */; };
+		267311B41A9FD60E00AD4379 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,11 +76,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		267311A71A9FD5AD00AD4379 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteGlobalIDString = 2673117C1A9FD19C00AD4379;
 			remoteInfo = DeepLinkSDK;
 		};
 /* End PBXContainerItemProxy section */
@@ -61,6 +88,8 @@
 /* Begin PBXFileReference section */
 		14A1857A6611A826E51F612A /* Pods-ReceiverDemo.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemo.test.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemo/Pods-ReceiverDemo.test.xcconfig"; sourceTree = "<group>"; };
 		19367BAF0FEDE5B798128F3D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2673117D1A9FD19C00AD4379 /* DeepLinkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepLinkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267311801A9FD19C00AD4379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE3E05821FBC0C05F248E61 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		57D5F02E049D7887B4F4ACDF /* Pods-ReceiverDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemo/Pods-ReceiverDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ReceiverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +184,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		267311791A9FD19C00AD4379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267311A91A9FD5B700AD4379 /* DeepLinkSDK.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				68101FFDAAC0A24037B56D22 /* libPods-Tests.a in Frameworks */,
@@ -190,6 +227,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2673117F1A9FD19C00AD4379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267311801A9FD19C00AD4379 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		439F76E40704ACAAE4203F56 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +271,7 @@
 				6003F58A195388D20070C39A /* ReceiverDemo.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 				DEDB148D1A3F944D00A837F8 /* SenderDemo.app */,
+				2673117D1A9FD19C00AD4379 /* DeepLinkSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,6 +337,7 @@
 				DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */,
 				DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */,
 				DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */,
+				2673117F1A9FD19C00AD4379 /* Supporting Files */,
 			);
 			path = DeepLink;
 			sourceTree = "<group>";
@@ -539,7 +587,50 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2673117A1A9FD19C00AD4379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267311991A9FD1DA00AD4379 /* DPLTargetViewControllerProtocol.h in Headers */,
+				2673119F1A9FD1F900AD4379 /* DPLDeepLinkRouter.h in Headers */,
+				267311A01A9FD1FC00AD4379 /* DPLRouteHandler.h in Headers */,
+				267311A51A9FD20D00AD4379 /* DPLDeepLink.h in Headers */,
+				267311A61A9FD21100AD4379 /* DPLMutableDeepLink.h in Headers */,
+				2673119E1A9FD1E900AD4379 /* DPLErrors.h in Headers */,
+				267311A11A9FD20000AD4379 /* DPLRouteMatcher.h in Headers */,
+				267311981A9FD1D800AD4379 /* AppLinks.h in Headers */,
+				267311A31A9FD20600AD4379 /* DPLMutableDeepLink+AppLinks.h in Headers */,
+				267311A21A9FD20300AD4379 /* DPLDeepLink+AppLinks.h in Headers */,
+				267311A41A9FD20900AD4379 /* DPLDeepLink_Private.h in Headers */,
+				2673119A1A9FD1DD00AD4379 /* NSString+DPLTrim.h in Headers */,
+				2673119B1A9FD1DF00AD4379 /* NSString+DPLQuery.h in Headers */,
+				2673119C1A9FD1E200AD4379 /* NSString+DPLJSON.h in Headers */,
+				2673119D1A9FD1E600AD4379 /* NSObject+DPLJSONObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2673117C1A9FD19C00AD4379 /* DeepLinkSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267311961A9FD19D00AD4379 /* Build configuration list for PBXNativeTarget "DeepLinkSDK" */;
+			buildPhases = (
+				267311781A9FD19C00AD4379 /* Sources */,
+				267311791A9FD19C00AD4379 /* Frameworks */,
+				2673117A1A9FD19C00AD4379 /* Headers */,
+				2673117B1A9FD19C00AD4379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLinkSDK;
+			productName = DeepLinkSDK;
+			productReference = 2673117D1A9FD19C00AD4379 /* DeepLinkSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6003F589195388D20070C39A /* ReceiverDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ReceiverDemo" */;
@@ -572,7 +663,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				267311A81A9FD5AD00AD4379 /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = DeepLinkSDKTests;
@@ -608,8 +699,8 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Button, Inc.";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					2673117C1A9FD19C00AD4379 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 					DEDB148C1A3F944D00A837F8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -629,14 +720,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2673117C1A9FD19C00AD4379 /* DeepLinkSDK */,
+				6003F5AD195388D20070C39A /* Tests */,
 				6003F589195388D20070C39A /* ReceiverDemo */,
 				DEDB148C1A3F944D00A837F8 /* SenderDemo */,
-				6003F5AD195388D20070C39A /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2673117B1A9FD19C00AD4379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -760,6 +859,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		267311781A9FD19C00AD4379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267311B31A9FD60B00AD4379 /* DPLDeepLink.m in Sources */,
+				267311AA1A9FD5EE00AD4379 /* NSString+DPLTrim.m in Sources */,
+				267311B01A9FD60200AD4379 /* DPLRouteMatcher.m in Sources */,
+				267311B11A9FD60600AD4379 /* DPLDeepLink+AppLinks.m in Sources */,
+				267311AF1A9FD60000AD4379 /* DPLRouteHandler.m in Sources */,
+				267311AC1A9FD5F800AD4379 /* NSString+DPLJSON.m in Sources */,
+				267311B41A9FD60E00AD4379 /* DPLMutableDeepLink.m in Sources */,
+				267311AB1A9FD5F400AD4379 /* NSString+DPLQuery.m in Sources */,
+				267311AD1A9FD5FA00AD4379 /* NSObject+DPLJSONObject.m in Sources */,
+				267311AE1A9FD5FD00AD4379 /* DPLDeepLinkRouter.m in Sources */,
+				267311B21A9FD60800AD4379 /* DPLMutableDeepLink+AppLinks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -806,10 +923,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		267311A81A9FD5AD00AD4379 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* ReceiverDemo */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			target = 2673117C1A9FD19C00AD4379 /* DeepLinkSDK */;
+			targetProxy = 267311A71A9FD5AD00AD4379 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -849,6 +966,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		267311901A9FD19D00AD4379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeepLinkSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		267311911A9FD19D00AD4379 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DeepLinkSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Test;
+		};
+		267311921A9FD19D00AD4379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DeepLinkSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -957,12 +1152,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2AE3E05821FBC0C05F248E61 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/SupportingFiles/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/SupportingFiles/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiverDemo.app/ReceiverDemo";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -971,12 +1164,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3CB044233E227F87FCF2C46 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/SupportingFiles/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/SupportingFiles/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiverDemo.app/ReceiverDemo";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -1066,12 +1257,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBE7E5A25C1B0E9637BE745A /* Pods-Tests.test.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/SupportingFiles/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/SupportingFiles/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiverDemo.app/ReceiverDemo";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Test;
@@ -1119,6 +1308,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		267311961A9FD19D00AD4379 /* Build configuration list for PBXNativeTarget "DeepLinkSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267311901A9FD19D00AD4379 /* Debug */,
+				267311911A9FD19D00AD4379 /* Test */,
+				267311921A9FD19D00AD4379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "DeepLinkSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
